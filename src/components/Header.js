@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
-import Night from "./../images/night.svg";
+// import Night from "./../images/night.svg";
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
