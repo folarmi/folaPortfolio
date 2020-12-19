@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 import Header from "./Header";
 
 const Homepage = () => {
@@ -11,6 +12,9 @@ const Homepage = () => {
         <p className="text-6xl">Folasayo</p>
         {/* <p className="text-6xl">Akinyosoye</p> */}
         <p className="text-3xl mt-8"> A Frontend Developer</p>
+        <button className="h-12 px-6 m-2 text-sm text-indigo-100 transition-colors ml-4 mt-6 duration-150 bg-black rounded-lg focus:shadow-outline hover:bg-indigo-800">
+          <Link to="/about">About Me</Link>
+        </button>
       </div>
       <Footer />
     </div>
@@ -18,15 +22,3 @@ const Homepage = () => {
 };
 
 export default Homepage;
-
-// flex: 0 0 100px;
-//     -webkit-box-flex: 0;
-//     height: 100px;
-//     margin: 0.5rem;
-//     border-radius: 50%;
-//     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px, rgba(0, 0, 0, 0.1) 0px 2px 10px 0px;
-//     background: rgb(255, 255, 255);
-//     display: flex;
-//     -webkit-box-pack: center;
-//     justify-content: center;
-//     align-items: center;
