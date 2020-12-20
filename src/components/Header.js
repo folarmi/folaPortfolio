@@ -6,7 +6,7 @@ const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
-      <nav className="relative sticky top-0 m-0 flex flex-wrap items-center justify-between pl-2 py-3 navbar-expand-lg bg-white shadow-lg mb-3">
+      <nav className="relative sticky top-0 z-10 m-0 flex flex-wrap items-center justify-between pl-2 py-3 navbar-expand-lg bg-white shadow-lg mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
