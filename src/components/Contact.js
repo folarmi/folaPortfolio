@@ -32,7 +32,7 @@ const Contact = () => {
       <Header />
       <div>
         <div className="grid min-h-screen place-items-center">
-          <div className="w-12/12 p-12 bg-white sm:w-8/12 md:w-1/2 lg:w-5/12 -mt-16 lg:-mt-40">
+          <div className="w-12/12 p-12 bg-white sm:w-8/12 md:w-1/2 lg:w-5/12 -mt-8 lg:-mt-40 bg-image">
             <h1 className="text-xl font-semibold">
               Hello there 👋,{" "}
               <span className="font-normal">i would love to hear from you</span>

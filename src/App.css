@@ -55,6 +55,6 @@
   object-position: center center;
 }
 
-/* #name {
-  width: 27rem;
-} */
+.bg-image {
+  background-image: linear-gradient(180deg, #b8f192, #e6afc6);
+}
