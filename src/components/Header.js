@@ -8,7 +8,7 @@ const Header = (props) => {
   return (
     <>
       <nav className="relative m-0 flex flex-wrap items-center justify-between pl-2 py-3 navbar-expand-lg mb-3">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between mt-8">
+        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between mt-8 lg:ml-16">
           <div className="w-full relative flex justify-between lg:w-auto lg:static  lg:block lg:justify-start">
             <Link
               to="/"
