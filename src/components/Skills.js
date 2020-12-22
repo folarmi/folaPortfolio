@@ -11,11 +11,12 @@ import webpack from "./../images/webpack.png";
 import github from "./../images/github.jpg";
 import tailwind from "./../images/tailwind.png";
 import git from "./../images/git.png";
+
 const Skills = () => {
   return (
     <div>
       <Header />
-      <p className="text-center text-3xl mb-4">Tools I use</p>
+      <p className="text-center color-blue text-3xl font-bold mb-4">My Tools</p>
       <div className="tool-box">
         <div className="tools">
           <img
@@ -37,9 +38,9 @@ const Skills = () => {
           <img src={redux} alt="" className="tool-img" />
         </div>
       </div>
-      <button className="h-12 px-6 m-2 text-sm text-indigo-100 ml-32 transition-colors duration-150 bg-black rounded-lg focus:shadow-outline hover:bg-indigo-800">
+      {/* <button className="h-12 px-6 m-2 text-sm text-indigo-100 ml-32 lg:ml-72 transition-colors duration-150 bg-black rounded-lg focus:shadow-outline hover:bg-indigo-800">
         <Link to="/contact">Contact Me</Link>
-      </button>
+      </button> */}
       <div className="tool-box">
         <div className="tools">
           <img src={npm} alt="" className="tool-img" />

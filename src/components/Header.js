@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { BiMenuAltRight } from "react-icons/bi";
 // import Night from "./../images/night.svg";
 // rgb(72,49,212)
-const Header = () => {
+const Header = (props) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
@@ -12,7 +12,7 @@ const Header = () => {
           <div className="w-full relative flex justify-between lg:w-auto lg:static  lg:block lg:justify-start">
             <Link
               to="/"
-              className="text-sm color-green text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
+              className="text-sm text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase color-green"
               href=""
             >
               Fola
@@ -31,12 +31,13 @@ const Header = () => {
               "lg:flex flex-grow items-center" +
               (navbarOpen ? " flex" : " hidden")
             }
+            bg-white
             id="example-navbar-danger"
           >
-            <ul className="flex flex-col align-center lg:flex-row list-none lg:ml-auto ml-28">
+            <ul className="flex flex-col align-center lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <Link
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800"
+                  className="px-3 py-2 flex items-center text-lg capitalize color-blue"
                   to="/skills"
                 >
                   Skills
@@ -44,7 +45,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold text-gray-800"
+                  className="px-3 py-2 flex items-center text-lg capitalize color-blue"
                   to="/projects"
                 >
                   Projects
@@ -52,7 +53,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800"
+                  className="px-3 py-2 flex items-center text-lg capitalize color-blue"
                   to="/contact"
                 >
                   Contact Me
