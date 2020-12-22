@@ -20,7 +20,7 @@ const Homepage = () => {
           </div>
 
           <section className="flex ml-12 lg:ml-32 color-green text-xs mt-16 justify-between leading-4 pb-16">
-            <article>
+            <article className="lg:mr-4">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam,
               nobis?
             </article>
@@ -48,14 +48,14 @@ const Homepage = () => {
           <h2 className="mt-4 color-blue text-3xl font-bold">
             I build &#38; <br /> design stuff
           </h2>
-          <p className="">
+          <p className="lg:max-w-xs">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
             laboriosam quis corrupti
           </p>
         </article>
       </div>
 
-      <button className="h-12 px-6 mb-2 text-sm text-indigo-100 transition-colors ml-12 duration-150 bg-black rounded-lg focus:shadow-outline hover:bg-indigo-800">
+      <button className="h-12 px-6 mb-2 text-sm text-indigo-100 transition-colors ml-12 lg:ml-32 outline-none duration-150 bg-black rounded-lg focus:shadow-outline hover:bg-indigo-800">
         <Link to="/projects">See My Work</Link>
       </button>
 

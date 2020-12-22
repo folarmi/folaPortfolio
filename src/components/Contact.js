@@ -32,7 +32,7 @@ const Contact = () => {
       <Header />
       <div>
         <div className="grid min-h-screen place-items-center">
-          <div className="w-11/12 p-12 bg-white sm:w-8/12 md:w-1/2 lg:w-5/12">
+          <div className="w-12/12 p-12 bg-white sm:w-8/12 md:w-1/2 lg:w-5/12 -mt-16 lg:-mt-40">
             <h1 className="text-xl font-semibold">
               Hello there 👋,{" "}
               <span className="font-normal">i would love to hear from you</span>
@@ -48,7 +48,7 @@ const Contact = () => {
                 <span className="">
                   <label
                     htmlFor="Name"
-                    className="block text-xs font-semibold text-gray-600 uppercase"
+                    className="block text-xs font-semibold text-gray-600 uppercase lg:w-96"
                   >
                     Name
                   </label>

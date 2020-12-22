@@ -43,12 +43,12 @@ const Footer = () => {
             </p>
           </div>
 
-          <section className="flex mt-4">
+          <section className="flex lg:mt-4 mt-0 pb-12">
             <a
               href="https://github.com/folarmi"
               target="_blank"
               rel="noreferrer"
-              className="mr:8 lg:mr-12"
+              className="mr-20 lg:mr-12"
             >
               <AiOutlineGithub className="nav-icon" />
             </a>
