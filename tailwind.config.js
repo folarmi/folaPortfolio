@@ -1,16 +1,16 @@
 module.exports = {
   purge: [],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      boxShadow: {
-        DEFAULT:
-          "rgba(0, 0, 0, 0.1) 0px 2px 5px 0px, rgba(0, 0, 0, 0.1) 0px 2px 10px 0px",
-      },
-      fontFamily: {
-        poppins: ["sans-serif;"],
+      colors: {
+        " purple": " rgb(72, 49, 212)",
+        " green": "#CCF381",
       },
     },
   },
-  variants: {},
+  variants: {
+    extend: {},
+  },
   plugins: [],
 };

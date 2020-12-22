@@ -2,8 +2,24 @@
   font-size: 2.3em;
 }
 
-.nav-icon-night {
-  width: 1.5em;
+.color-green {
+  color: #ccf381;
+}
+
+.color-blue {
+  color: #4831d4;
+}
+
+.bg-green {
+  background-color: #ccf381;
+}
+
+.bg-purple {
+  background-color: #4831d4;
+}
+
+.bg-dark-purple {
+  background-color: #3d155f;
 }
 
 .tools {
