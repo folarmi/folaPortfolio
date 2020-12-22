@@ -12,6 +12,9 @@ const Projects = () => {
     <div>
       <Header />
       <section className="text-gray-700 body-font lg:mt-2">
+        <p className="text-center color-blue text-3xl font-bold mb-2">
+          Selected Projects
+        </p>
         <div className="container px-5 py-24 mx-auto pb-4">
           <div className="flex flex-wrap -m-4 text-center lg:ml-60 lg:-mt-12">
             <div className="p-4 md:w-1/4 sm:w-1/2 w-4/5 ml-8">

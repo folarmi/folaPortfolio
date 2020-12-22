@@ -37,7 +37,7 @@ const Header = (props) => {
             <ul className="flex flex-col align-center lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <Link
-                  className="px-3 py-2 flex items-center text-lg capitalize color-blue"
+                  className="px-3 py-2 flex items-center text-lg uppercase font-bold text-black"
                   to="/skills"
                 >
                   Skills
@@ -45,7 +45,7 @@ const Header = (props) => {
               </li>
               <li className="nav-item">
                 <Link
-                  className="px-3 py-2 flex items-center text-lg capitalize color-blue"
+                  className="px-3 py-2 flex items-center text-lg uppercase font-bold text-black"
                   to="/projects"
                 >
                   Projects
@@ -53,7 +53,7 @@ const Header = (props) => {
               </li>
               <li className="nav-item">
                 <Link
-                  className="px-3 py-2 flex items-center text-lg capitalize color-blue"
+                  className="px-3 py-2 flex items-center text-lg uppercase font-bold text-black"
                   to="/contact"
                 >
                   Contact Me

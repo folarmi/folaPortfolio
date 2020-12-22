@@ -33,7 +33,7 @@ const Homepage = () => {
 
         <section className="bg-green p-16 relative lg:pt-24 lg:-pl-32">
           <div className="w-40 h-40 lg:w-80 lg:h-80 ml-8 border-2 border-white z-9"></div>
-          <div className="absolute top-12 left-12 lg:top-16 lg:-left-32">
+          <div className="absolute top-12 left-12 lg:top-16 lg:-left-12">
             <img
               src={Me}
               alt="myself"
