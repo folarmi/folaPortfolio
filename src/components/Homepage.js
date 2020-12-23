@@ -21,12 +21,11 @@ const Homepage = () => {
 
           <section className="flex ml-12 lg:ml-32 color-green text-xs mt-16 justify-between leading-4 pb-16">
             <article className="lg:mr-4">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-              nobis?
+              Building top-notch web applications with modern technologies.
             </article>
             <article>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum, exercitationem?
+              When i am not coding, i love to read, play word games and watch
+              movies.
             </article>
           </section>
         </section>
@@ -43,21 +42,49 @@ const Homepage = () => {
         </section>
       </div>
 
-      <div className="bg-white ">
-        <article className="m-12 lg:ml-32">
-          <h2 className="mt-4 color-blue text-3xl font-bold">
-            I build &#38; <br /> design stuff
-          </h2>
-          <p className="lg:max-w-xs">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            laboriosam quis corrupti
-          </p>
-        </article>
-      </div>
+      <section className="lg:flex ">
+        <div className="bg-white ">
+          <article className="m-12 lg:ml-32">
+            <h2 className="mt-4 color-blue text-3xl font-bold">
+              I build &#38; <br /> design stuff
+            </h2>
+            <p className="lg:max-w-xs leading-8">
+              Some of the projects i have worked on can be seen here.
+            </p>
+          </article>
+          <button
+            name="work"
+            className="h-12 px-6 mb-2 text-sm text-indigo-100 transition-colors ml-12 lg:ml-32 outline-none duration-150 bg-black rounded-lg focus:shadow-outline hover:bg-indigo-800"
+          >
+            <Link to="/projects">See Projects</Link>
+          </button>
+        </div>
 
-      <button className="h-12 px-6 mb-2 text-sm text-indigo-100 transition-colors ml-12 lg:ml-32 outline-none duration-150 bg-black rounded-lg focus:shadow-outline hover:bg-indigo-800">
-        <Link to="/projects">See My Work</Link>
-      </button>
+        <hr className="bg-purple" />
+
+        <div className="bg-white ">
+          <article className="m-12 lg:ml-32">
+            <h2 className="mt-4 color-blue text-3xl font-bold">
+              Looking for a <br /> hire or team-mate?
+            </h2>
+            <p className="lg:max-w-xs leading-8">
+              I am open to Frontend roles, collaboration and gigs.
+            </p>
+          </article>
+          <button
+            name="work"
+            className="h-12 px-6 mb-2 text-sm text-indigo-100 transition-colors ml-12 lg:ml-32 outline-none duration-150 bg-black rounded-lg focus:shadow-outline hover:bg-indigo-800"
+          >
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://drive.google.com/file/d/1FgUTq2DbNwOh4zNs8xqkPqHF5uSKO47J/view?usp=sharing"
+            >
+              View Resume
+            </a>
+          </button>
+        </div>
+      </section>
 
       <Footer />
     </div>

@@ -37,9 +37,6 @@ const Skills = () => {
           <img src={redux} alt="" className="tool-img" />
         </div>
       </div>
-      {/* <button className="h-12 px-6 m-2 text-sm text-indigo-100 ml-32 lg:ml-72 transition-colors duration-150 bg-black rounded-lg focus:shadow-outline hover:bg-indigo-800">
-        <Link to="/contact">Contact Me</Link>
-      </button> */}
       <div className="tool-box">
         <div className="tools">
           <img src={npm} alt="" className="tool-img" />

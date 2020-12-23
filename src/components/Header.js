@@ -12,7 +12,7 @@ const Header = (props) => {
           <div className="w-full relative flex justify-between lg:w-auto lg:static  lg:block lg:justify-start">
             <Link
               to="/"
-              className="text-sm text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase color-green"
+              className="text-sm text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-black"
               href=""
             >
               Fola
@@ -21,6 +21,7 @@ const Header = (props) => {
               className="nav-icon cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
+              name="menu"
             >
               <BiMenuAltRight className="color-green" />
             </button>
