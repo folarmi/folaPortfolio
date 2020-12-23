@@ -11,7 +11,7 @@ const Footer = () => {
         <p className="text-white text-base uppercase pt-24">say hello</p>
 
         <section className="color-green mt-4 leading-8 lg:flex">
-          <div className="lg:mr-72">
+          <div className="lg:mr-96">
             <p>
               <a href="mailto:fola4@gmail.com?">fola4ril@gmail.com</a>
             </p>
