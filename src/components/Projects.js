@@ -7,6 +7,7 @@ import menu from "./../images/menu.png";
 import tour from "./../images/tours.png";
 import tabs from "./../images/tabs.png";
 import shortly from "./../images/shortly.png";
+import expense from "./../images/expense.png";
 const Projects = () => {
   return (
     <div>
@@ -17,6 +18,22 @@ const Projects = () => {
         </p>
         <div className="container px-5 py-24 mx-auto pb-4">
           <div className="flex flex-wrap -m-4 text-center lg:ml-60 lg:-mt-12">
+            <div className="p-4 md:w-1/4 sm:w-1/2 w-4/5 ml-8">
+              <a
+                href="https://expense-tracker.folasayo.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={expense}
+                  alt=""
+                  className="project-img rounded-lg transform transition duration-500 hover:scale-110"
+                />
+              </a>
+              <p className="text-center uppercase mt-4 font-medium text-base">
+                Expense Tracker
+              </p>
+            </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-4/5 ml-8">
               <a
                 href="https://folarmi.github.io/moviedb"
@@ -79,22 +96,6 @@ const Projects = () => {
               </a>
               <p className="text-center uppercase mt-4 font-medium text-base">
                 tours
-              </p>
-            </div>
-            <div className="p-4 md:w-1/4 sm:w-1/2 w-4/5 ml-8">
-              <a
-                href="https://tabs-red.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  src={tabs}
-                  alt=""
-                  className="project-img rounded-lg transform transition duration-500 hover:scale-110"
-                />
-              </a>
-              <p className="text-center uppercase mt-4 font-medium text-base">
-                tabs
               </p>
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-4/5 ml-8">
